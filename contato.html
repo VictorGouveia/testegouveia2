@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07060b">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%237C4DFF%22/><text x=%2250%22 y=%2266%22 font-size=%2246%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22monospace%22>GS</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contato | Gouveia Studios</title>
+  <meta name="description" content="Solicite orçamento ou fale com a Gouveia Studios pelo WhatsApp, email ou formulário de contato.">
+  <meta property="og:title" content="Contato | Gouveia Studios">
+  <meta property="og:description" content="Solicite orçamento ou fale com a Gouveia Studios pelo WhatsApp, email ou formulário de contato.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/logos/logo.png" alt="Gouveia Studios" class="brand-mark">
+        <span>
+          
+          <small></small>
+        </span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="social-media.html">Social Media</a>
+        <a href="fotografia.html">Fotografia</a>
+        <a href="videomaker.html">Videomaker</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="trafego.html">Tráfego Pago</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html" aria-current="page">Contato</a>
+      </div>
+      <div class="nav-cta">
+        <a href="https://wa.me/5521999999999" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">WhatsApp</a>
+        <a href="contato.html" class="btn btn-primary btn-sm">Solicitar orçamento</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="page-header">
+    <div class="section-inner">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contato</div>
+      <span class="eyebrow">Fale com a gente</span>
+      <h1 class="title" style="font-size: clamp(2.1rem, 4vw, 3rem);">Contato</h1>
+      <p class="lead">Preencha o formulário ou fale direto pelo WhatsApp. Respondemos o mais rápido possível, geralmente no mesmo dia.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-inner grid grid-2" style="gap: var(--space-xl); align-items:start;">
+
+      <div class="glass reveal" style="padding: var(--space-lg);">
+        <form id="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            </div>
+            <div class="field">
+              <label for="empresa">Empresa</label>
+              <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa (opcional)">
+            </div>
+            <div class="field">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(21) 90000-0000" required>
+            </div>
+            <div class="field">
+              <label for="whatsapp">WhatsApp</label>
+              <input type="tel" id="whatsapp" name="whatsapp" placeholder="(21) 90000-0000">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+            </div>
+            <div class="field">
+              <label for="servico">Serviço desejado</label>
+              <select id="servico" name="servico" required>
+                <option value="">Selecione...</option>
+                <option value="Tecnologia e Manutenção">Tecnologia e Manutenção</option>
+                <option value="Gestão de Tráfego">Gestão de Tráfego</option>
+                <option value="Fotografia">Fotografia</option>
+                <option value="Videomaker">Videomaker</option>
+                <option value="Mais de um serviço">Mais de um serviço</option>
+                <option value="Ainda não sei">Ainda não sei</option>
+              </select>
+            </div>
+          </div>
+          <div class="field full">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Conte um pouco sobre o que você precisa" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Enviar mensagem</button>
+          <p class="form-note">Ao enviar, você será redirecionado para o WhatsApp com sua mensagem pronta para confirmar o envio.</p>
+          <div class="form-success">Mensagem pronta! Confirme o envio na aba do WhatsApp que abriu.</div>
+        </form>
+      </div>
+
+      <div class="reveal">
+        <div class="contact-info">
+          <div class="contact-item glass">
+            <div class="ic">📍</div>
+            <div><strong>Localização</strong><span>Rio de Janeiro, RJ — atendimento local e remoto</span></div>
+          </div>
+          <div class="contact-item glass">
+            <div class="ic">💬</div>
+            <div><strong>WhatsApp</strong><span>(21) 99999-9999</span></div>
+          </div>
+          <div class="contact-item glass">
+            <div class="ic">✉️</div>
+            <div><strong>Email</strong><span>contato@gouveiastudios.com.br</span></div>
+          </div>
+          <div class="contact-item glass">
+            <div class="ic">🕘</div>
+            <div><strong>Horário de atendimento</strong><span>Segunda a sábado, das 9h às 19h</span></div>
+          </div>
+          <div class="contact-item glass">
+            <div class="ic">📷</div>
+            <div><strong>Instagram</strong><span>@gouveiastudios</span></div>
+          </div>
+          <div class="contact-item glass">
+            <div class="ic">👥</div>
+            <div><strong>Facebook &amp; LinkedIn</strong><span>Gouveia Studios</span></div>
+          </div>
+        </div>
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps?q=Rio%20de%20Janeiro%2C%20RJ&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa de localização — Rio de Janeiro, RJ"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="section-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img src="assets/logos/logo.png" alt="Gouveia Studios" class="brand-mark">
+            <span>Gouveia Studios<small>Soluções Digitais</small></span>
+          </a>
+          <p>Tecnologia, imagem e tráfego pago em um único lugar. Ajudamos empreendedores e empresas a operar melhor e vender mais, com processos claros e resultado mensurável.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">IN</a>
+            <a href="https://wa.me/5521999999999" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Navegação</h5>
+          <a href="index.html">Home</a>
+          <a href="quem-somos.html">Quem Somos</a>
+          <a href="servicos.html">Serviços</a>
+          <a href="portfolio.html">Portfólio</a>
+          <a href="contato.html">Contato</a>
+        </div>
+        <div class="footer-col">
+          <h5>Serviços</h5>
+          <a href="social-media.html">Social Media</a>
+          <a href="tecnologia.html">Tecnologia &amp; Manutenção</a>
+          <a href="trafego.html">Gestão de Tráfego</a>
+          <a href="fotografia.html">Fotografia</a>
+          <a href="videomaker.html">Videomaker</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contato</h5>
+          <li>Rio de Janeiro, RJ</li>
+          <li>(21) 99999-9999</li>
+          <li>contato@gouveiastudios.com.br</li>
+          <li>Seg. a Sáb. · 9h às 19h</li>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year></span> Gouveia Studios. Todos os direitos reservados.</span>
+        <span>CNPJ/MEI &middot; Rio de Janeiro &ndash; RJ</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5521999999999" target="_blank" rel="noopener" class="wa-float" aria-label="Falar no WhatsApp">💬</a>
+  <button class="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
