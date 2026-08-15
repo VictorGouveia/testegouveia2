@@ -216,7 +216,7 @@ p.lead{ color: var(--text-muted); font-size: 1.05rem; max-width: 58ch; }
   box-shadow: 0 30px 80px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.05);
 }
 .diagnostic-head{ display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
-.diagnostic-dots{ display: flex; gap: 6px; }
+ic-dots{ display: flex; gap: 6px; }
 .diagnostic-dots span{ width: 9px; height: 9px; border-radius: 50%; background: var(--text-faint); }
 .diagnostic-status{ font-family: var(--font-mono); font-size: 0.7rem; color: var(--success); display: flex; align-items: center; gap: 0.4rem; letter-spacing: 0.05em; }
 .diagnostic-status::before{ content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--success); box-shadow: 0 0 6px var(--success); animation: pulse 1.8s infinite; }
