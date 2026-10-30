@@ -14,6 +14,7 @@ gouveia-studios/
 ├── quem-somos.html        → Quem Somos
 ├── servicos.html          → Serviços (visão geral)
 ├── social-media.html      → Social Media (serviço principal)
+├── cursos.html            → Cursos e Ebooks (tráfego, social media, tecnologia, foto/vídeo)
 ├── tecnologia.html        → Tecnologia & Manutenção
 ├── trafego.html           → Gestão de Tráfego Pago
 ├── fotografia.html        → Portfólio de Fotografia
@@ -103,3 +104,20 @@ Para usar um domínio como `gouveiastudios.com.br` em vez do link padrão do Git
 ---
 
 **Gouveia Studios** — Tecnologia, imagem e tráfego pago em um único parceiro. Rio de Janeiro, RJ.
+
+---
+
+## Paleta de cores
+
+Definida nas variáveis do topo de `css/style.css` (`:root`) — para mudar o visual do site inteiro, basta editar ali.
+
+| Uso | Cor |
+|---|---|
+| Fundo base | `#05070A` |
+| Fundo de seções/painéis | `#0B1220` |
+| Azul principal | `#1677FF` |
+| Ciano de brilho | `#00CFFF` |
+| Azul de apoio | `#69B7FF` |
+| Texto | `#F5F8FC` |
+
+A logo original em roxo foi mantida em `assets/logos/logo-roxo-original.png`.
